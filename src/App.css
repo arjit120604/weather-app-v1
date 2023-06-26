@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  background-color: #f1f1f1;
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 80px auto; 
+  padding: 40px; 
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+  color: #333; 
+  text-align: center; 
+}
+
+.heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.button {
+  background-color: #6c63ff;
+  color: #fff;
+  padding: 10px 20px;
+  border:#000;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.button:hover {
+  background-color: #5249c8;
+}
+
+.weather-info {
+  margin-top: 40px;
+}
+
+.city {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  color: #333;
+}
+
+.temperature {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.feels-like {
+  font-size: 20px; 
+  color: #333;
+  margin-bottom: 5px;
+}
+
+
+
+body {
+  background-image: linear-gradient(to bottom, #61a4ff, #8798f5);
+  color: #fff; 
+}
+
+.container {
+  max-width: 600px; /* Maintain the width of the container */
+  margin: 80px auto; /* Maintain the margin for centering */
+  padding: 40px; /* Maintain the padding for spacing */
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #333; /* Set font color to default */
+  text-align: center; /* Center align the text */
+}
+
+.heading{
+  font-size: 43px;
+  font-weight: 900;
+}
+.city{
+  color: #000; 
+  font-weight: 600; /* Use bolder font weight */
+  font-family: 'Poppins', Arial, sans-serif; /* Set the new font */
+  text-align: center; /* Center align the text */
+
+}
+.temperature,
+.description,
+.feels-like {
+  color: #000; /* Set font color to darker */
+  font-weight: 300; /* Use bolder font weight */
+  font-family: 'Poppins', Arial, sans-serif; /* Set the new font */
+  text-align: center; /* Center align the text */
+  line-break: auto;
+}
